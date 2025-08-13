@@ -3,8 +3,10 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"helloworld/internal/version"
+
 	"runtime/debug"
+
+	"github.com/shaun-plumb/helloworld/internal/version"
 )
 
 func main() {
