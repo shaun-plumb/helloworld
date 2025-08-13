@@ -30,7 +30,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: compile and release
-      uses: shaun-plumb/go-release.action@0.0.4
+      uses: shaun-plumb/go-release.action@0.0.5
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GOARCH: arm64
