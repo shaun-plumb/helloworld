@@ -22,7 +22,7 @@ jobs:
         go-version: '1.24'
 
     - name: Build
-      run: go build -v -ldflags="-X 'helloworld/internal/version.Version={{ github.ref }}'" ./...
+      run: go build -v -ldflags="-X 'github.com/shaun-plumb/helloworld/internal/version.Version={{ github.ref }}'" ./...
 
   release-darwin-arm64:
     name: release darwin/arm64
